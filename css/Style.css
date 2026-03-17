@@ -13,7 +13,7 @@ header {
   margin: 20vh auto 10vh auto;
 
   height: 6rem;
-  width: 60vw;
+  width: 70vw;
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.5);
@@ -52,7 +52,7 @@ main {
   display: flex;
   margin: 2rem;
   height: 6rem;
-  width: 60vw;
+  width: 70vw;
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.5);
@@ -90,7 +90,7 @@ main {
   margin-bottom: 2rem;
   margin: 2rem 5vw 2rem 5vw;
   height: 3rem;
-  width: 25vw;
+  width: 30vw;
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.5);
@@ -110,7 +110,7 @@ main {
   flex-direction: column;
   margin: 2rem;
   height: 6rem;
-  width: 60vw;
+  width: 70vw;
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.5);
