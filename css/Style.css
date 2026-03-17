@@ -26,6 +26,9 @@ header a {
   color: black;
   text-decoration: none;
 }
+.name {
+  color: #c4d8e2;
+}
 
 .bg {
   position: fixed;
