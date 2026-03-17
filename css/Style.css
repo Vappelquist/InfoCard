@@ -9,8 +9,9 @@ header {
   align-items: center;
   justify-self: center;
   justify-content: center;
-  margin-bottom: 10vh;
-  margin-top: 20vh;
+
+  margin: 20vh auto 10vh auto;
+
   height: 6rem;
   width: 60vw;
   background: rgba(255, 255, 255, 0.15);
