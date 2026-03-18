@@ -13,7 +13,7 @@ header {
   margin: 20vh auto 10vh auto;
 
   height: 6rem;
-  width: 70vw;
+  width: min(90vw, 70rem);
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.5);
@@ -24,12 +24,15 @@ header {
   -o-border-radius: 20px;
 }
 header a {
+  display: flex;
   color: black;
   text-decoration: none;
+  justify-content: center;
 }
 .name {
   justify-self: center;
   color: #c4d8e2;
+  font-size: clamp(2rem, 5vw, 4rem);
 }
 
 .bg {
@@ -52,7 +55,7 @@ main {
   display: flex;
   margin: 2rem;
   height: 6rem;
-  width: 70vw;
+  width: min(90vw, 70rem);
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.5);
@@ -75,6 +78,7 @@ main {
   text-decoration: none;
   color: #c4d8e2;
   z-index: 9999;
+  font-size: clamp(2rem, 5vw, 4rem);
 }
 .title {
   text-decoration: underline;
@@ -90,7 +94,7 @@ main {
   margin-bottom: 2rem;
   margin: 2rem 5vw 2rem 5vw;
   height: 3rem;
-  width: 30vw;
+  width: 40vw;
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.5);
@@ -110,7 +114,7 @@ main {
   flex-direction: column;
   margin: 2rem;
   height: 6rem;
-  width: 70vw;
+  width: min(90vw, 70rem);
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.5);
